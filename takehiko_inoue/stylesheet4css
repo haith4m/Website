@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #FFFFFF; 
     color: #000000; 
@@ -121,4 +122,129 @@ img {
 
 #thing{
     opacity: 80%;
+=======
+body {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    background-image: url('img/vback.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+a {
+    color: burlywood;
+}
+
+h1 {
+    color: burlywood;
+    text-align: center;
+    font-family:pla
+}
+
+pre {
+    
+    background-color:dimgray;
+    padding: 15px;/* space on the inside*/
+    margin: 50px;/* space on the outside*/
+    text-align: center;
+    opacity: 80%;
+  }
+/*create a separate class to separate text from the above */
+.words{
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto; /* This centers the table horizontally */
+    border: none;
+    opacity: 80%;
+    outline: none;
+    background-color: dimgray;
+    
+}
+
+th, td {
+    
+    border-style: ridge;
+    padding: 12px;
+    
+   
+}
+
+td:nth-child(even) {
+    
+    text-align: left;
+    width: 2%;
+    height: 2%;
+    
+}
+
+
+
+img {
+    /* Additional styles for the image if needed */
+    display: inline-block;
+}
+
+.outlined-text {
+    
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000;
+    opacity: 90%;
+    padding-bottom: 60px;
+    font-size:60px;
+}
+
+.text{
+    background-color:dimgray;
+    padding: 10px;/* space on the inside*/
+    margin: 0px;/* space on the outside*/
+    text-align: center;
+    opacity: 80%;
+}
+
+
+.inoue{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+
+}
+
+#tab{
+    width: 80%;
+    margin: 0 auto; 
+    
+
+}
+
+#tab td {
+    
+    padding: 12px;
+    
+    text-align: center;
+}
+
+
+#tab th, td {
+    
+   
+    padding: 12px;
+    
+}
+
+
+
+#thing{
+    opacity: 80%;
+>>>>>>> 15fb49a110bb29f2eaf5e473eb6a494d0cb24271
 }
